@@ -218,7 +218,7 @@ You can target the version you are concerned with by using the `--target-version
 For example:
 
 ```
-$ pluto detect-helm --target-version k8s=v1.15.0 --show-all
+$ pluto detect-helm --target-versions k8s=v1.15.0 --show-all
 NAME                                                         KIND                           VERSION                                REPLACEMENT                       REMOVED   DEPRECATED
 cert-manager/cert-manager-webhook                            MutatingWebhookConfiguration   admissionregistration.k8s.io/v1beta1   admissionregistration.k8s.io/v1   false     false
 
